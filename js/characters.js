@@ -17,8 +17,8 @@ async function fetchCharactersJson(){
 
 function createCharactersCard ({ name, ki, maxKi, gender, affiliation, race, image}){
     return `
-        <div class="card" style="width: 200px;">
-            <img src="${image}" class="card-img-top" alt="...">
+        <div class="card cardCard" style="width: 200px;">
+            <img src="${image}" class="card-img-top cardImgTop" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${name}</h5>
                 <p class="card-text">${race} - ${gender}</p>
@@ -33,11 +33,11 @@ function createCharactersCard ({ name, ki, maxKi, gender, affiliation, race, ima
 }
 
 async function displayCharacters() {
-    const charactersSection = document.getElementById('characterSection');
+    const charactersSection = document.getElementById('charactersSection');
     const charactersData = await fetchCharactersJson();
 
-    if (charactersData && charactersData.characters){
-        const charactersCards = charactersData.characters.map(createCharactersCard).join('');
+    if (charactersData && charactersData.items){
+        const charactersCards = charactersData.items.map(createCharactersCard).join('');
         charactersSection.innerHTML = charactersCards;
     }
     else
