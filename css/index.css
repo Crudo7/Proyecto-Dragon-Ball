@@ -1,0 +1,61 @@
+.logoDragonBallHeader{
+    width: 400px;
+    
+}
+
+body{
+    background-image: url(../img/cloudIndexImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.planetsText{
+    display: flex;
+    justify-content: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #551a8b;
+}
+.charactersText{
+    display: flex;
+    justify-content: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #551a8b;
+}
+.startGameText{
+    display: flex;
+    justify-content: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #551a8b
+}
+.optionsText{
+    display: flex;
+    justify-content: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #551a8b
+}
+
+a{
+    text-decoration: none;
+}
+ footer{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    text-align: center;
+}
+.footerText{
+    font-size: xx-small;
+}
