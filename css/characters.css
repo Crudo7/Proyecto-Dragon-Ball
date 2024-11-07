@@ -2,9 +2,29 @@ main{
     background-image: ;
 }
 header{
+    background-image: url(../img/bannerArreglado.jpg);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
     margin: 0px;
     padding: 0px;
     background-color: bisque;
+
+}
+
+.kamehamehaBanner{
+    display: flex;
+
+    width: 400px;
+    
+
+}
+.revertedKamehameha{
+    display: flex;
+    
+    width: 400px;
+
 }
 .characterCard{
     display: flex;
@@ -24,11 +44,45 @@ header{
     min-height: 100px;
     max-height: 300px;
     align-self: center;
-    background: rgb(230,241,55);
-    background: linear-gradient(0deg, rgba(230,241,55,1) 18%, rgba(9,27,80,1) 90%);
+    background: rgb(241,198,55);
+    background: linear-gradient(0deg, rgba(241,198,55,1) 18%, rgba(73,9,80,1) 90%);
 }
 
 .cardCard{
     background-color: rgba(179, 23, 23, 0.205);
     margin: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.planetsText{
+    display: flex;
+    
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #551a8b
+}
+
+.homeText{
+    display: flex;
+    font-size: x-large;
+    
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #551a8b
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    text-align: center;
+}
+
+.footerText{
+    font-size: small;
 }
