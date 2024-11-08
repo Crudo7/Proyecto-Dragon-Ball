@@ -14,10 +14,6 @@ I used the api and endpoint to show all the characters and planets.
 ![Captura de pantalla 2024-11-08 083443](https://github.com/user-attachments/assets/fc948206-00f8-41a2-97bf-ae9720f8363d)
 
 
-## 🚀 About Me
-My name is Fran Muñoz (aka Crudo7).
-I'm 24 years old.
-I'm studying with Arrabal and SomosF5 a backend/frontend bootcamp.
 
 My gmail: franciscomgz11@gmail.com.
 
