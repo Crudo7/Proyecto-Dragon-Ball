@@ -1,0 +1,79 @@
+header{
+    background-image: url(../img/fondoBannerCieloNoche.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+main{
+    background-image: url(../img/mainBackgroundSky.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.planetsCard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    row-gap: 70px;
+    column-gap: 65px;
+}
+.cardImgTop{
+    display: flex;
+    width:150px;
+    height: 100px;
+    align-self: center;
+    background: rgb(241,198,55);
+    background: linear-gradient(0deg, rgba(241,198,55,1) 18%, rgba(73,9,80,1) 90%);
+}
+.cardCard{
+    background-color: rgba(179, 23, 23, 0.205);
+    margin: 30px;
+}
+.linksText{
+    display: flex;
+    flex-flow:column;
+    justify-content: space-evenly;
+}
+.link{
+    display: flex;
+    min-width: 250px;
+    max-width: 250px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #551a8b;
+
+    a:link, a:visited {
+        text-decoration: double;
+        color: rgb(3, 3, 62);
+        }
+    a:hover {
+        text-decoration: dashed;
+        color:rgb(192, 53, 7);
+        }
+    a:active {
+        text-decoration: double;
+        color: rgb(99, 24, 3);
+    }
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    text-align: center;
+}
+.footerText{
+    font-size: small;
+}

@@ -28,18 +28,17 @@ function createPlanetsCard ({ name, isDestroyed, image}){
 }
 
 async function displayPlanets() {
-    const planetsSection = document.getElementById('planetSection');
+    const planetsSection = document.getElementById('planetsSection');
     const planetsData = await fetchPlanetsJson();
 
-    if (planetsData && planetsData.planets){
-        const planetsCards = planetsData.planets.map(createPlanetsCard).join('');
+    if (planetsData && planetsData.items){
+        const planetsCards = planetsData.items.map(createPlanetsCard).join('');
         planetsSection.innerHTML = planetsCards;
     }
     else
     {
-        planetsSection.innerHTML = `<p>No se ha podido cargar el JSON de los personajes</p>`;    
+        planetsSection.innerHTML = `<p>No se ha podido cargar el JSON de los planetas</p>`;    
     }
 }
-
 
 displayPlanets();

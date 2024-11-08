@@ -1,6 +1,6 @@
 
 header{
-    background-image: url(../img/bannerArreglado.jpg);
+    background-image: url(../img/fondoBannerCieloNoche.jpg);
     background-attachment: fixed;
     display: flex;
     justify-content: space-around;
@@ -9,7 +9,7 @@ header{
     background-color: bisque;
 }
 main{
-    background-image: url(../img/charactersBackground.png);
+    background-image: url(../img/mainBackgroundSky.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
